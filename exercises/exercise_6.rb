@@ -22,17 +22,17 @@ puts "----------"
 @store1.employees.create(
   first_name: "Lionel",
   last_name: "Messi",
-  hourly_rate: 14
+  hourly_rate: 50
 )
 
 @store2.employees.create(
   first_name: "Lindsay",
   last_name: "Lohan",
-  hourly_rate: 15
+  hourly_rate: 40
 )
 
 @store2.employees.create(
   first_name: "Paris",
   last_name: "Hilton",
-  hourly_rate: 13
+  hourly_rate: 40
 )
